@@ -6,7 +6,10 @@
 	use getSystemTime() for counting the passed time. if when don't set the funtion cudaDeviceEnablePeerAccess(),
 	then 2gpu in K80 is not P2P, and the cudaMemcpy() is all going well. but  when we set cudaDeviceEnablePeerAccess() on, 
 	then cudaMemcpy() is asynchronization, because the count time is nearly zero, which is very surprising! if it's true,
-	then cudaMemcpy() and cudaMemcpyAsync() is the same between 2gpu which can P2P and be seted as P2P.
+	it means that cudaMemcpy() and cudaMemcpyAsync() is the same between 2gpu which can P2P and be seted as P2P.
+
+	other operation:
+	1. when use getSystemTime(), and use envent to cudaEventSynchronize, then all be ok!
 */
 
 #include <iostream>
@@ -76,12 +79,18 @@ void test_2gpu(float *d_send_data, float *d_recv_data, int size, int id0, int id
 		cudaEventDestroy(start_event);
 		cudaEventDestroy(stop_event);
 	} else {
+		//cudaEvent_t start_event;
+		//cudaEventCreate(&start_event);
+
 		long long start = getSystemTime();
 		for(int i=0; i<CNT; i++) {
 			cudaMemcpy(d_recv_data, d_send_data, size*sizeof(float), cudaMemcpyDeviceToDevice);	
 			//cudaMemcpyPeer(d_recv_data, id1, d_send_data, id0, size*sizeof(float));	
 		}
-		std::cout << "debug 1" << std::endl;
+
+		//cudaEventRecord(start_event, 0);
+		//cudaEventSynchronize(start_event);
+
 		long long end = getSystemTime();
 		std::cout << "Time is " << (end-start)/1000. << "s" << std::endl;
 		std::cout << "GPU" << id0 << " ---> GPU" << id1 << " :" << 
@@ -131,9 +140,9 @@ int main(int argc, char **argv)
 		std::cout << "can GPU" << id0 << "access from GPU" << id1 << ": No" << std::endl;
 	}
 
-	cudaSetDevice(id0);
-	//use_cuda_time = false;
-	use_cuda_time = true;
+	cudaSetDevice(id1);
+	use_cuda_time = false;
+	//use_cuda_time = true;
 	test_2gpu(d_send_data, d_recv_data, size, id0, id1, use_cuda_time);
 
 	cudaFreeHost(h_data);
