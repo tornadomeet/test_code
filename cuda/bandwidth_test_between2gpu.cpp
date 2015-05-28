@@ -50,14 +50,23 @@ void test_2gpu(float *d_send_data, float *d_recv_data, int size, int id0, int id
 	if(use_cuda_time) {
 		cudaEvent_t start_event, stop_event;
 		float time_memcpy;
+
+		// version I
+		//cudaEventCreate(&start_event);
+		//cudaEventCreate(&stop_event);
+		//cudaEventRecord(start_event, 0);
+
+		// version II
 		int eventflags = cudaEventBlockingSync;
 		cudaEventCreateWithFlags(&start_event, eventflags);
 		cudaEventCreateWithFlags(&stop_event, eventflags);
 		cudaEventRecord(start_event, 0);
+
 		for(int i=0; i<CNT; i++) {
 			cudaMemcpy(d_recv_data, d_send_data, size*sizeof(float), cudaMemcpyDeviceToDevice);	
 		}
 		std::cout << "hello, use_cuda_time" << std::endl;
+
 		cudaEventRecord(stop_event, 0);
 		cudaEventSynchronize(stop_event);
 		cudaEventElapsedTime(&time_memcpy, start_event, stop_event);  // ms
