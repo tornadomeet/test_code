@@ -90,6 +90,7 @@ int main(int argc, char **argv)
 	if(argc != 3) {
 		std::cout << "the number of paramter should be equal 2" << std::endl;
 		std::cout << "egs: bandwidth_test_between2gpu 0 1" << std::endl;
+		return 1;
 	}
 	//std::cout << "debug 1" << std::endl;
 	int id0 = atoi(argv[1]);
