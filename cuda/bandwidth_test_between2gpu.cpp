@@ -1,3 +1,14 @@
+/*	
+	the bin is used for testing the bandwith between 2 gpus, the usage is:
+	bandwidth_test_between2gpu 0 1
+	but there is one problem troubled me: the cudaMemcpy in K80(enabled P2P) is asynchronization!?
+	when we use one K80 for test, which has 2 gpu in one board. in the code, let set use_cuda_time = false, means
+	use getSystemTime() for counting the passed time. if when don't set the funtion cudaDeviceEnablePeerAccess(),
+	then 2gpu in K80 is not P2P, and the cudaMemcpy() is all going well. but  when we set cudaDeviceEnablePeerAccess() on, 
+	then cudaMemcpy() is asynchronization, because the count time is nearly zero, which is very surprising! if it's true,
+	then cudaMemcpy() and cudaMemcpyAsync() is the same between 2gpu which can P2P and be seted as P2P.
+*/
+
 #include <iostream>
 #include <string>
 #include <stdlib.h>
@@ -76,8 +87,9 @@ int main(int argc, char **argv)
 	float *h_data, *d_send_data, *d_recv_data; 
 	bool use_cuda_time = true;
 
-	if(argc > 3) {
-		std::cout << "the number of paramter should less than 3" << std::endl;
+	if(argc != 3) {
+		std::cout << "the number of paramter should be equal 2" << std::endl;
+		std::cout << "egs: bandwidth_test_between2gpu 0 1" << std::endl;
 	}
 	//std::cout << "debug 1" << std::endl;
 	int id0 = atoi(argv[1]);
@@ -110,13 +122,9 @@ int main(int argc, char **argv)
 	}
 
 	cudaSetDevice(id0);
-	use_cuda_time = false;
-	//use_cuda_time = true;
+	//use_cuda_time = false;
+	use_cuda_time = true;
 	test_2gpu(d_send_data, d_recv_data, size, id0, id1, use_cuda_time);
-
-	//test_d2d_gpudirect(rank, d_send_data, d_recv_data, size);
-	//test_d2d_no_gpudirect(rank, d_send_data, h_send_data, d_recv_data, h_recv_data, size);
-	//test_h2h(rank, h_send_data, h_recv_data, size);
 
 	cudaFreeHost(h_data);
 	cudaFree(d_send_data);
