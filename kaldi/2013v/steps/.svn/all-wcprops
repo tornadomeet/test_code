@@ -1,0 +1,527 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/p/kaldi/code/!svn/ver/3491/trunk/egs/wsj/s5/steps
+END
+train_mmi_sgmm2.sh
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/p/kaldi/code/!svn/ver/3298/trunk/egs/wsj/s5/steps/train_mmi_sgmm2.sh
+END
+decode_sgmm_rescore.sh
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/p/kaldi/code/!svn/ver/3202/trunk/egs/wsj/s5/steps/decode_sgmm_rescore.sh
+END
+lmrescore.sh
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/kaldi/code/!svn/ver/3027/trunk/egs/wsj/s5/steps/lmrescore.sh
+END
+decode_fmmi.sh
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/kaldi/code/!svn/ver/3202/trunk/egs/wsj/s5/steps/decode_fmmi.sh
+END
+search_index.sh
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/kaldi/code/!svn/ver/3488/trunk/egs/wsj/s5/steps/search_index.sh
+END
+train_nnet_scheduler.sh
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/p/kaldi/code/!svn/ver/3415/trunk/egs/wsj/s5/steps/train_nnet_scheduler.sh
+END
+decode_basis_fmllr.sh
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/p/kaldi/code/!svn/ver/3202/trunk/egs/wsj/s5/steps/decode_basis_fmllr.sh
+END
+train_nnet.sh
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/kaldi/code/!svn/ver/3488/trunk/egs/wsj/s5/steps/train_nnet.sh
+END
+decode_nolats.sh
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/kaldi/code/!svn/ver/3488/trunk/egs/wsj/s5/steps/decode_nolats.sh
+END
+make_index.sh
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/kaldi/code/!svn/ver/3488/trunk/egs/wsj/s5/steps/make_index.sh
+END
+train_sat_basis.sh
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/p/kaldi/code/!svn/ver/3202/trunk/egs/wsj/s5/steps/train_sat_basis.sh
+END
+train_mono.sh
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/kaldi/code/!svn/ver/3202/trunk/egs/wsj/s5/steps/train_mono.sh
+END
+make_fbank_pitch.sh
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/p/kaldi/code/!svn/ver/3389/trunk/egs/wsj/s5/steps/make_fbank_pitch.sh
+END
+decode_sgmm.sh
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/kaldi/code/!svn/ver/3202/trunk/egs/wsj/s5/steps/decode_sgmm.sh
+END
+make_fmmi_feats.sh
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/p/kaldi/code/!svn/ver/3209/trunk/egs/wsj/s5/steps/make_fmmi_feats.sh
+END
+decode_sgmm2_rescore.sh
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/p/kaldi/code/!svn/ver/3202/trunk/egs/wsj/s5/steps/decode_sgmm2_rescore.sh
+END
+word_align_lattices.sh
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/p/kaldi/code/!svn/ver/3140/trunk/egs/wsj/s5/steps/word_align_lattices.sh
+END
+make_fbank.sh
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/kaldi/code/!svn/ver/3339/trunk/egs/wsj/s5/steps/make_fbank.sh
+END
+make_plp_pitch.sh
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/kaldi/code/!svn/ver/3389/trunk/egs/wsj/s5/steps/make_plp_pitch.sh
+END
+oracle_wer.sh
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/kaldi/code/!svn/ver/3140/trunk/egs/wsj/s5/steps/oracle_wer.sh
+END
+decode_fmllr_extra.sh
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/p/kaldi/code/!svn/ver/3202/trunk/egs/wsj/s5/steps/decode_fmllr_extra.sh
+END
+train_sgmm2.sh
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/kaldi/code/!svn/ver/3202/trunk/egs/wsj/s5/steps/train_sgmm2.sh
+END
+decode.sh
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/kaldi/code/!svn/ver/3482/trunk/egs/wsj/s5/steps/decode.sh
+END
+train_segmenter.sh
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/p/kaldi/code/!svn/ver/3209/trunk/egs/wsj/s5/steps/train_segmenter.sh
+END
+make_plp.sh
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/kaldi/code/!svn/ver/3339/trunk/egs/wsj/s5/steps/make_plp.sh
+END
+decode_sgmm2.sh
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/kaldi/code/!svn/ver/3482/trunk/egs/wsj/s5/steps/decode_sgmm2.sh
+END
+append_feats.sh
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/kaldi/code/!svn/ver/3339/trunk/egs/wsj/s5/steps/append_feats.sh
+END
+decode_fromlats.sh
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/p/kaldi/code/!svn/ver/3202/trunk/egs/wsj/s5/steps/decode_fromlats.sh
+END
+make_fmllr_feats.sh
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/p/kaldi/code/!svn/ver/3209/trunk/egs/wsj/s5/steps/make_fmllr_feats.sh
+END
+make_mfcc_pitch.sh
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/p/kaldi/code/!svn/ver/3389/trunk/egs/wsj/s5/steps/make_mfcc_pitch.sh
+END
+resegment_text.sh
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/kaldi/code/!svn/ver/2990/trunk/egs/wsj/s5/steps/resegment_text.sh
+END
+train_raw_sat.sh
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/kaldi/code/!svn/ver/3202/trunk/egs/wsj/s5/steps/train_raw_sat.sh
+END
+align_sgmm2.sh
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/kaldi/code/!svn/ver/3202/trunk/egs/wsj/s5/steps/align_sgmm2.sh
+END
+train_nnet_cpu.sh
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/kaldi/code/!svn/ver/3375/trunk/egs/wsj/s5/steps/train_nnet_cpu.sh
+END
+make_denlats_sgmm.sh
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/p/kaldi/code/!svn/ver/3202/trunk/egs/wsj/s5/steps/make_denlats_sgmm.sh
+END
+align_sgmm.sh
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/kaldi/code/!svn/ver/3202/trunk/egs/wsj/s5/steps/align_sgmm.sh
+END
+get_train_ctm.sh
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/kaldi/code/!svn/ver/2990/trunk/egs/wsj/s5/steps/get_train_ctm.sh
+END
+align_si.sh
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/kaldi/code/!svn/ver/3202/trunk/egs/wsj/s5/steps/align_si.sh
+END
+train_lda_mllt.sh
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/kaldi/code/!svn/ver/3202/trunk/egs/wsj/s5/steps/train_lda_mllt.sh
+END
+make_denlats.sh
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/kaldi/code/!svn/ver/3209/trunk/egs/wsj/s5/steps/make_denlats.sh
+END
+make_denlats_sgmm2.sh
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/p/kaldi/code/!svn/ver/3202/trunk/egs/wsj/s5/steps/make_denlats_sgmm2.sh
+END
+decode_biglm.sh
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/kaldi/code/!svn/ver/3202/trunk/egs/wsj/s5/steps/decode_biglm.sh
+END
+decode_sgmm2_fromlats.sh
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/p/kaldi/code/!svn/ver/3202/trunk/egs/wsj/s5/steps/decode_sgmm2_fromlats.sh
+END
+train_sgmm.sh
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/kaldi/code/!svn/ver/3202/trunk/egs/wsj/s5/steps/train_sgmm.sh
+END
+train_diag_ubm.sh
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/kaldi/code/!svn/ver/3202/trunk/egs/wsj/s5/steps/train_diag_ubm.sh
+END
+align_basis_fmllr.sh
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/p/kaldi/code/!svn/ver/3202/trunk/egs/wsj/s5/steps/align_basis_fmllr.sh
+END
+decode_nnet.sh
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/kaldi/code/!svn/ver/3194/trunk/egs/wsj/s5/steps/decode_nnet.sh
+END
+make_pitch_kaldi.sh
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/p/kaldi/code/!svn/ver/3350/trunk/egs/wsj/s5/steps/make_pitch_kaldi.sh
+END
+train_deltas.sh
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/kaldi/code/!svn/ver/3202/trunk/egs/wsj/s5/steps/train_deltas.sh
+END
+rnnlmrescore.sh
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/kaldi/code/!svn/ver/2789/trunk/egs/wsj/s5/steps/rnnlmrescore.sh
+END
+decode_si.sh
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/kaldi/code/!svn/ver/914/trunk/egs/wsj/s5/steps/decode_si.sh
+END
+decode_fmllr.sh
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/kaldi/code/!svn/ver/3488/trunk/egs/wsj/s5/steps/decode_fmllr.sh
+END
+decode_combine.sh
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/kaldi/code/!svn/ver/1307/trunk/egs/wsj/s5/steps/decode_combine.sh
+END
+get_ctm.sh
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/p/kaldi/code/!svn/ver/1578/trunk/egs/wsj/s5/steps/get_ctm.sh
+END
+resegment_data.sh
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/kaldi/code/!svn/ver/2990/trunk/egs/wsj/s5/steps/resegment_data.sh
+END
+train_sat.sh
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/kaldi/code/!svn/ver/3488/trunk/egs/wsj/s5/steps/train_sat.sh
+END
+align_fmllr.sh
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/kaldi/code/!svn/ver/3202/trunk/egs/wsj/s5/steps/align_fmllr.sh
+END
+make_phone_graph.sh
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/p/kaldi/code/!svn/ver/2990/trunk/egs/wsj/s5/steps/make_phone_graph.sh
+END
+train_mmi_fmmi.sh
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/kaldi/code/!svn/ver/3298/trunk/egs/wsj/s5/steps/train_mmi_fmmi.sh
+END
+decode_raw_fmllr.sh
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/p/kaldi/code/!svn/ver/3488/trunk/egs/wsj/s5/steps/decode_raw_fmllr.sh
+END
+get_fmllr_basis.sh
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/p/kaldi/code/!svn/ver/3202/trunk/egs/wsj/s5/steps/get_fmllr_basis.sh
+END
+train_sgmm2_group.sh
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/p/kaldi/code/!svn/ver/3202/trunk/egs/wsj/s5/steps/train_sgmm2_group.sh
+END
+align_raw_fmllr.sh
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/p/kaldi/code/!svn/ver/3202/trunk/egs/wsj/s5/steps/align_raw_fmllr.sh
+END
+decode_sgmm2_rescore_project.sh
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/p/kaldi/code/!svn/ver/3202/trunk/egs/wsj/s5/steps/decode_sgmm2_rescore_project.sh
+END
+train_smbr.sh
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/kaldi/code/!svn/ver/3298/trunk/egs/wsj/s5/steps/train_smbr.sh
+END
+mixup.sh
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/p/kaldi/code/!svn/ver/3202/trunk/egs/wsj/s5/steps/mixup.sh
+END
+train_mmi_sgmm.sh
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/kaldi/code/!svn/ver/3202/trunk/egs/wsj/s5/steps/train_mmi_sgmm.sh
+END
+train_nnet_mpe.sh
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/kaldi/code/!svn/ver/3194/trunk/egs/wsj/s5/steps/train_nnet_mpe.sh
+END
+train_nnet_mmi.sh
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/kaldi/code/!svn/ver/3194/trunk/egs/wsj/s5/steps/train_nnet_mmi.sh
+END
+make_mfcc.sh
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/kaldi/code/!svn/ver/3339/trunk/egs/wsj/s5/steps/make_mfcc.sh
+END
+get_lexicon_probs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/p/kaldi/code/!svn/ver/2387/trunk/egs/wsj/s5/steps/get_lexicon_probs.sh
+END
+pretrain_dbn.sh
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/kaldi/code/!svn/ver/3488/trunk/egs/wsj/s5/steps/pretrain_dbn.sh
+END
+train_mmi_fmmi_indirect.sh
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/p/kaldi/code/!svn/ver/3298/trunk/egs/wsj/s5/steps/train_mmi_fmmi_indirect.sh
+END
+train_quick.sh
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/kaldi/code/!svn/ver/3339/trunk/egs/wsj/s5/steps/train_quick.sh
+END
+make_denlats_nnet.sh
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/p/kaldi/code/!svn/ver/3209/trunk/egs/wsj/s5/steps/make_denlats_nnet.sh
+END
+decode_with_map.sh
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/p/kaldi/code/!svn/ver/3202/trunk/egs/wsj/s5/steps/decode_with_map.sh
+END
+train_nnet_scheduler.sh.old
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/p/kaldi/code/!svn/ver/3415/trunk/egs/wsj/s5/steps/train_nnet_scheduler.sh.old
+END
+compute_cmvn_stats.sh
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/p/kaldi/code/!svn/ver/3298/trunk/egs/wsj/s5/steps/compute_cmvn_stats.sh
+END
+decode_sgmm_fromlats.sh
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/p/kaldi/code/!svn/ver/3202/trunk/egs/wsj/s5/steps/decode_sgmm_fromlats.sh
+END
+make_bn_feats.sh
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/kaldi/code/!svn/ver/3376/trunk/egs/wsj/s5/steps/make_bn_feats.sh
+END
+decode_nnet_cpu.sh
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/p/kaldi/code/!svn/ver/3298/trunk/egs/wsj/s5/steps/decode_nnet_cpu.sh
+END
+train_mpe.sh
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/kaldi/code/!svn/ver/3298/trunk/egs/wsj/s5/steps/train_mpe.sh
+END
+align_nnet.sh
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/kaldi/code/!svn/ver/3194/trunk/egs/wsj/s5/steps/align_nnet.sh
+END
+train_nnet.sh.old
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/kaldi/code/!svn/ver/3415/trunk/egs/wsj/s5/steps/train_nnet.sh.old
+END
+train_mmi.sh
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/kaldi/code/!svn/ver/3298/trunk/egs/wsj/s5/steps/train_mmi.sh
+END
+decode_fwdbwd.sh
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/kaldi/code/!svn/ver/3202/trunk/egs/wsj/s5/steps/decode_fwdbwd.sh
+END
+train_ubm.sh
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/kaldi/code/!svn/ver/3202/trunk/egs/wsj/s5/steps/train_ubm.sh
+END

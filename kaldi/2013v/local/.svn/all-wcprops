@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/p/kaldi/code/!svn/ver/3371/trunk/egs/rm/s5/local
+END
+run_sgmm2x.sh
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/kaldi/code/!svn/ver/1089/trunk/egs/rm/s5/local/run_sgmm2x.sh
+END
+rm_prepare_grammar.sh
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/p/kaldi/code/!svn/ver/939/trunk/egs/rm/s5/local/rm_prepare_grammar.sh
+END
+run_dnn.sh
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/kaldi/code/!svn/ver/2787/trunk/egs/rm/s5/local/run_dnn.sh
+END
+make_rm_lm.pl
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/kaldi/code/!svn/ver/903/trunk/egs/rm/s5/local/make_rm_lm.pl
+END
+make_trans.pl
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/kaldi/code/!svn/ver/2478/trunk/egs/rm/s5/local/make_trans.pl
+END
+run_sgmm.sh
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/p/kaldi/code/!svn/ver/1089/trunk/egs/rm/s5/local/run_sgmm.sh
+END
+run_raw_fmllr.sh
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/kaldi/code/!svn/ver/2830/trunk/egs/rm/s5/local/run_raw_fmllr.sh
+END
+run_sgmm2.sh
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/kaldi/code/!svn/ver/2290/trunk/egs/rm/s5/local/run_sgmm2.sh
+END
+run_nnet2.sh
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/kaldi/code/!svn/ver/3371/trunk/egs/rm/s5/local/run_nnet2.sh
+END
+run_sgmm_multiling.sh
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/p/kaldi/code/!svn/ver/2830/trunk/egs/rm/s5/local/run_sgmm_multiling.sh
+END
+score.sh
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/p/kaldi/code/!svn/ver/2443/trunk/egs/rm/s5/local/score.sh
+END
+rm_data_prep.sh
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/kaldi/code/!svn/ver/2658/trunk/egs/rm/s5/local/rm_data_prep.sh
+END
+rm_prepare_grammar_ug.sh
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/p/kaldi/code/!svn/ver/2830/trunk/egs/rm/s5/local/rm_prepare_grammar_ug.sh
+END
+make_rm_dict.pl
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/kaldi/code/!svn/ver/903/trunk/egs/rm/s5/local/make_rm_dict.pl
+END
