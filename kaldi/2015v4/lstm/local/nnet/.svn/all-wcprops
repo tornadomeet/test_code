@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/multimedia/!svn/ver/6998/ImageSearch/trunk/Kaldi-Modify/lstm/local/nnet
+END
+run_lstm.sh
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/multimedia/!svn/ver/6998/ImageSearch/trunk/Kaldi-Modify/lstm/local/nnet/run_lstm.sh
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/multimedia/!svn/ver/6996/ImageSearch/trunk/Kaldi-Modify/lstm/steps/nnet
+END
+train_scheduler.sh
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/multimedia/!svn/ver/6996/ImageSearch/trunk/Kaldi-Modify/lstm/steps/nnet/train_scheduler.sh
+END
+train_mpe.sh
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/multimedia/!svn/ver/6996/ImageSearch/trunk/Kaldi-Modify/lstm/steps/nnet/train_mpe.sh
+END
+make_denlats_parallel.sh
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/multimedia/!svn/ver/6996/ImageSearch/trunk/Kaldi-Modify/lstm/steps/nnet/make_denlats_parallel.sh
+END
+align.sh
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/multimedia/!svn/ver/6996/ImageSearch/trunk/Kaldi-Modify/lstm/steps/nnet/align.sh
+END
