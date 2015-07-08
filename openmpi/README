@@ -1,0 +1,3 @@
+bandwidth_test_with_gpudirect:
+usuage:
+mpirun -np 2 --host host1,host2 bandwidth_test_with_gpudirect
