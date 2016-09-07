@@ -2,10 +2,20 @@ syntax enable
 :set nu
 :colorscheme desert
 
+" set tabel
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set textwidth=79
+set expandtab
+set autoindent
+set fileformat=unix
+
 set nocompatible                " no compatible with vi
 filetype off                    " required!
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
+
 
 set pastetoggle=<F9>   " paste mode and nopaset mode toggle
 
